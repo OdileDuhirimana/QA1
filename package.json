@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,6 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "mocha": "^10.7.3"
   }
 }
